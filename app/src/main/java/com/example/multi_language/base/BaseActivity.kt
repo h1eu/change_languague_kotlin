@@ -12,7 +12,7 @@ abstract class BaseActivity : AppCompatActivity() {
     private var sharedPreferences: SharedPreferences? = null
     override fun attachBaseContext(newBase: Context?) {
         sharedPreferences = newBase?.getSharedPreferences(Constants.LANGUAGE,Context.MODE_PRIVATE)
-        val language = sharedPreferences?.getString(Constants.SET_LANGUAGE,"")
+        val language = sharedPreferences?.getString(Constants.LANGUAGE,"")
         if (language != null) {
             if (language.isNotEmpty()){
                 val localeSwitchTo = Locale(language)

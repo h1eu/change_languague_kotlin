@@ -22,7 +22,7 @@ class SetLanguageFragment : BaseFragment<FragmentSetLanguagleBinding>(FragmentSe
 
     private fun onClickBtnVn(){
         val editor = sharedPreferences?.edit()
-        editor?.putString(Constants.SET_LANGUAGE,resources.getString(R.string.language_vn_code))
+        editor?.putString(Constants.LANGUAGE,resources.getString(R.string.language_vn_code))
         editor?.apply()
         startActivity(Intent(context,MainActivity::class.java))
         requireActivity().finish()
@@ -30,7 +30,7 @@ class SetLanguageFragment : BaseFragment<FragmentSetLanguagleBinding>(FragmentSe
 
     private fun onClickBtnCn(){
         val editor = sharedPreferences?.edit()
-        editor?.putString(Constants.SET_LANGUAGE,resources.getString(R.string.language_cn_code))
+        editor?.putString(Constants.LANGUAGE,resources.getString(R.string.language_cn_code))
         editor?.apply()
         startActivity(Intent(context,MainActivity::class.java))
         requireActivity().finish()

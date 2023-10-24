@@ -8,4 +8,8 @@
         android:id="@+id/contentFragment"
         android:name="com.example.multi_language.ui.ContentFragment"
         android:label="ContentFragment" />
+    <fragment
+        android:id="@+id/contentFragment2"
+        android:name="com.example.multi_language.ui.ContentFragment2"
+        android:label="ContentFragment2" />
 </navigation>
