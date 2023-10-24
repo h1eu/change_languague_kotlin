@@ -1,0 +1,7 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="app_name">multi_language</string>
+    <string name="text_hello">Xin Chào</string>
+    <string name="text_des">Văn bản tiếng Anh dành cho người mới bắt đầu luyện đọc và hiểu trực tuyến và miễn phí. Thực hành khả năng hiểu tiếng Anh viết của bạn sẽ vừa cải thiện vốn từ vựng vừa hiểu biết về ngữ pháp và trật tự từ. Các văn bản dưới đây được thiết kế để giúp bạn phát triển đồng thời đưa ra đánh giá tức thì về sự tiến bộ của bạn.</string>
+
+</resources>

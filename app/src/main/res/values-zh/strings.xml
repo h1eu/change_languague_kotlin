@@ -1,0 +1,6 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="app_name">multi_language</string>
+    <string name="text_hello">你好</string>
+    <string name="text_des">供初学者免费在线练习阅读和理解的英语文本。 练习对书面英语的理解将提高你的词汇量以及对语法和词序的理解。 下面的文字旨在帮助您发展，同时让您即时评估自己的进展。</string>
+</resources>

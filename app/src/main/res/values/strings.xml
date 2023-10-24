@@ -1,0 +1,17 @@
+<resources>
+    <string name="app_name">multi_language</string>
+    <string name="text_hello">Hello</string>
+    <string name="text_des">English texts for beginners to practice reading and comprehension online and for free. Practicing your comprehension of written English will both improve your vocabulary and understanding of grammar and word order. The texts below are designed to help you develop while giving you an instant evaluation of your progress.</string>
+
+
+    <string name="language_vietnam" translatable="false">Vietnamese</string>
+    <string name="language_china" translatable="false">China</string>
+
+    <string name="language_vn_code" translatable="false">vi</string>
+    <string name="language_cn_code" translatable="false">zh</string>
+
+    <string-array name="language_array">
+        <item>@string/language_vietnam</item>
+        <item>@string/language_china</item>
+    </string-array>
+</resources>
